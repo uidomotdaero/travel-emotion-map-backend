@@ -1,0 +1,72 @@
+!SESSION 2025-08-20 14:36:55.566 -----------------------------------------------
+eclipse.buildId=4.35.0.202503091919
+java.version=21.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -vmargs - javaagent:lombok.jar -XX:CompileCommand=exclude org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer::getExtendedRange --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/sun.nio.ch=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/sun.security.ssl=ALL-UNNAMED -Dosgi.requiredJavaVersion=21 -Dosgi.dataAreaRequiresExplicitInit=true -Dorg.slf4j.simpleLogger.defaultLogLevel=off -Dsun.java.command=SpringToolSuite4 -Dp2.trustedAuthorities=https://download.eclipse.org,https://archive.eclipse.org,https://cdn.spring.io -Xms256m -Xmx2048m --illegal-access=permit --add-modules=ALL-SYSTEM
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -vmargs - javaagent:lombok.jar -XX:CompileCommand=exclude org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer::getExtendedRange --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/sun.nio.ch=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/sun.security.ssl=ALL-UNNAMED -Dosgi.requiredJavaVersion=21 -Dosgi.dataAreaRequiresExplicitInit=true -Dorg.slf4j.simpleLogger.defaultLogLevel=off -Dsun.java.command=SpringToolSuite4 -Dp2.trustedAuthorities=https://download.eclipse.org,https://archive.eclipse.org,https://cdn.spring.io -Xms256m -Xmx2048m --illegal-access=permit --add-modules=ALL-SYSTEM
+
+!ENTRY ch.qos.logback.classic 1 0 2025-08-20 14:36:57.038
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2025-08-20 14:36:57.298
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.29.0 (1191) Component descriptor entry 'OSGI-INF/*.xml' not found
+
+!ENTRY ch.qos.logback.classic 1 0 2025-08-20 14:37:07.873
+!MESSAGE Logback config file: C:\Users\songj\Downloads\uidomotdaero\uidomotdaero\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-08-20 14:37:08.177
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-08-20 14:37:08.177
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-08-20 14:37:08.402
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-08-20 14:37:08.402
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-08-20 14:37:10.915
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\songj'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui 2 2 2025-08-20 14:37:11.135
+!MESSAGE Invalid preference category path: org.eclipse.wst.html.ui.preferences.web (bundle: org.eclipse.wst.jsdt.ui, page: org.eclipse.wst.jsdt.ui.preferences.JavaBasePreferencePage)
+!SESSION 2025-08-20 14:38:04.861 -----------------------------------------------
+eclipse.buildId=4.35.0.202503091919
+java.version=21.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -vmargs - javaagent:lombok.jar -XX:CompileCommand=exclude org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer::getExtendedRange --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/sun.nio.ch=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/sun.security.ssl=ALL-UNNAMED -Dosgi.requiredJavaVersion=21 -Dosgi.dataAreaRequiresExplicitInit=true -Dorg.slf4j.simpleLogger.defaultLogLevel=off -Dsun.java.command=SpringToolSuite4 -Dp2.trustedAuthorities=https://download.eclipse.org,https://archive.eclipse.org,https://cdn.spring.io -Xms256m -Xmx2048m --illegal-access=permit --add-modules=ALL-SYSTEM
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -vmargs - javaagent:lombok.jar -XX:CompileCommand=exclude org.eclipse.jdt.internal.core.dom.rewrite.ASTRewriteAnalyzer::getExtendedRange --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/sun.nio.ch=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/sun.security.ssl=ALL-UNNAMED -Dosgi.requiredJavaVersion=21 -Dosgi.dataAreaRequiresExplicitInit=true -Dorg.slf4j.simpleLogger.defaultLogLevel=off -Dsun.java.command=SpringToolSuite4 -Dp2.trustedAuthorities=https://download.eclipse.org,https://archive.eclipse.org,https://cdn.spring.io -Xms256m -Xmx2048m --illegal-access=permit --add-modules=ALL-SYSTEM
+
+!ENTRY ch.qos.logback.classic 1 0 2025-08-20 14:38:06.684
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.lemminx.uber-jar 4 0 2025-08-20 14:38:06.935
+!MESSAGE bundle org.eclipse.lemminx.uber-jar:0.29.0 (1191) Component descriptor entry 'OSGI-INF/*.xml' not found
+
+!ENTRY ch.qos.logback.classic 1 0 2025-08-20 14:38:16.622
+!MESSAGE Logback config file: C:\Users\songj\Downloads\uidomotdaero\uidomotdaero\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.7.0.20241001-1350.xml
+
+!ENTRY org.eclipse.ui 2 0 2025-08-20 14:38:16.924
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-08-20 14:38:16.924
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.ui 2 0 2025-08-20 14:38:17.146
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2025-08-20 14:38:17.146
+!MESSAGE Commands should really have a category: plug-in='org.springframework.tooling.boot.ls', id='spring.initializr.addStarters', categoryId='org.eclipse.lsp4e.commandCategory'
+
+!ENTRY org.eclipse.egit.ui 2 0 2025-08-20 14:38:19.433
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\songj'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui 2 2 2025-08-20 14:38:19.532
+!MESSAGE Invalid preference category path: org.eclipse.wst.html.ui.preferences.web (bundle: org.eclipse.wst.jsdt.ui, page: org.eclipse.wst.jsdt.ui.preferences.JavaBasePreferencePage)
