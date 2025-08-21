@@ -21,7 +21,6 @@ import com.travelmap.uidomotdaero.vo.TravelEmotionDTO;
 
 @RestController
 @RequestMapping("/api")
-@CrossOrigin(origins = "*")
 public class EmotionPointController {
 
 	@Autowired
