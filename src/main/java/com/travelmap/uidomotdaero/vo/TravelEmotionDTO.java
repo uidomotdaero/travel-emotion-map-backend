@@ -30,8 +30,17 @@ public class TravelEmotionDTO {
     private String youtubeUrl;      // 유튜브 URL
 	private String imageUrl; // 사진 URL 목록
     private LocalDateTime createdAt;
+	private String weatherCondition; // 날씨
     
-    public Long getId() {
+    public String getWeatherCondition() {
+		return weatherCondition;
+	}
+
+	public void setWeatherCondition(String weatherCondition) {
+		this.weatherCondition = weatherCondition;
+	}
+
+	public Long getId() {
 		return id;
 	}
 

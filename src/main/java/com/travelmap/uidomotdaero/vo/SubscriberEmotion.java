@@ -88,8 +88,27 @@ public class SubscriberEmotion {
     @Column(name= "approved_by")
     private String approvedBy;
     
+    @Column(name= "weather_condition")
+    private String weatherCondition;
+    
 
-    public String getImageUrl() {
+    public String getSubmitterName() {
+		return submitterName;
+	}
+
+	public void setSubmitterName(String submitterName) {
+		this.submitterName = submitterName;
+	}
+
+	public String getWeatherCondition() {
+		return weatherCondition;
+	}
+
+	public void setWeatherCondition(String weatherCondition) {
+		this.weatherCondition = weatherCondition;
+	}
+
+	public String getImageUrl() {
 		return imageUrl;
 	}
 

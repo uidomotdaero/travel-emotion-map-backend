@@ -58,6 +58,8 @@ public class EmotionService {
         dto.setReviewText(emotion.getReviewText());
         dto.setYoutubeUrl(emotion.getYoutubeUrl());
         dto.setImageUrl(emotion.getImageUrl());
+        dto.setWeatherCondition(emotion.getWeatherCondition());
+        
         return dto;
     }
     
@@ -93,6 +95,7 @@ public class EmotionService {
         SubscriberEmotionDTO dto = new SubscriberEmotionDTO();
         dto.setId(entity.getId());
         dto.setMeName(entity.getMeName());
+        dto.setSubmitterName(entity.getSubmitterName());
         dto.setEmail(entity.getEmail());
         dto.setLatitude(entity.getLatitude());
         dto.setLongitude(entity.getLongitude());
@@ -105,6 +108,7 @@ public class EmotionService {
 //        dto.setApproved(entity.isApproved());
         dto.setApprovedDate(entity.getApprovedDate());
         dto.setApprovedBy(entity.getApprovedBy());
+        dto.setWeatherCondition(entity.getWeatherCondition());
         return dto;
     }
 }

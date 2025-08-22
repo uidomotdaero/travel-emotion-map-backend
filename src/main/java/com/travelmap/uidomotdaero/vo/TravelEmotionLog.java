@@ -67,8 +67,19 @@ public class TravelEmotionLog {
  @Column(name = "CREATED_DATE", nullable = false, updatable = false)
  private LocalDateTime createdAt;
  
+ @Column(name = "WEATHER_CONDITION", length = 1000)
+ private String weatherCondition;
  
  
+ 
+public String getWeatherCondition() {
+	return weatherCondition;
+}
+
+public void setWeatherCondition(String weatherCondition) {
+	this.weatherCondition = weatherCondition;
+}
+
 public String getImageUrl() {
 	return imageUrl;
 }

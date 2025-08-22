@@ -17,8 +17,26 @@ public class SubscriberEmotionDTO {
 	    private boolean isApproved;
 	    private LocalDateTime approvedDate;
 	    private String approvedBy;
+	    private String submitterName;
+	    private String weatherCondition;
 
-	    // 생성자, Getter, Setter
+	    public String getSubmitterName() {
+			return submitterName;
+		}
+
+		public void setSubmitterName(String submitterName) {
+			this.submitterName = submitterName;
+		}
+
+		public String getWeatherCondition() {
+			return weatherCondition;
+		}
+
+		public void setWeatherCondition(String weatherCondition) {
+			this.weatherCondition = weatherCondition;
+		}
+
+		// 생성자, Getter, Setter
 	    public SubscriberEmotionDTO() {}
 
 	    // Getter & Setter 메서드들

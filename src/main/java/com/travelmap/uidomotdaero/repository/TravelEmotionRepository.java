@@ -14,7 +14,7 @@ public interface TravelEmotionRepository extends JpaRepository<TravelEmotionLog,
     
     // 커스텀 쿼리 - 위치 기반 검색
     @Query(value = 
-    		"SELECT *, e.me_name FROM TRAVEL_EMOTION_LOG e " +
+    		"SELECT *, e.me_name, e.weather_condition FROM TRAVEL_EMOTION_LOG e " +
     		        "WHERE " +
     		        "  (6371 * acos(cos(radians(CAST(:latitude AS double precision))) * cos(radians(CAST(e.LATITUDE AS double precision))) * " +
     		        "  cos(radians(CAST(e.LONGITUDE AS double precision)) - radians(CAST(:longitude AS double precision))) + " +
